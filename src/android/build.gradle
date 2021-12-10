@@ -3,8 +3,8 @@ buildscript {
         google()
         jcenter()
     }
+}
 
-    dependencies {
-		implementation 'io.grpc:grpc-okhttp:1.32.2'
-    }
+dependencies {
+	implementation 'io.grpc:grpc-okhttp:1.32.2'
 }
